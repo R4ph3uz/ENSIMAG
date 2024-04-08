@@ -1,0 +1,6 @@
+for number in 1 #{1..15}
+do 
+url="http://xkcd.com/"$number
+urlim=`wget $url -O - | grep hotlink | grep -o 'http.*jpg'| grep "https://imgs.xkcd.com/*"`
+echo $urlim
+done

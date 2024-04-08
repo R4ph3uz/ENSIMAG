@@ -1,0 +1,6 @@
+for direct in $HOME/*
+do 
+if test -d $direct; then echo $direct;fi
+done
+
+

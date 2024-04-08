@@ -1,0 +1,6 @@
+echo "Quel chemin à lister ?"
+read chemin
+for direct in $chemin/*
+do
+if test -d $direct; then echo $direct;fi
+done

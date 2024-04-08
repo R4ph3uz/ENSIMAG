@@ -1,0 +1,12 @@
+echo "Quel chemin à lister ?"
+read chemin
+if test -d $chemin
+then
+for direct in $chemin/*
+do
+if test -d $direct; then echo $direct;fi
+done
+else
+echo "le chemin n'existe pas"
+fi
+

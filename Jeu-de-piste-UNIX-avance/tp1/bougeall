@@ -1,0 +1,14 @@
+mkdir ALL
+for dir in ./*
+do
+if test -d $dir
+then
+directory=${dir : -4}
+for fichier in $dir/*
+do
+nombre=${fichier: -9}
+mv $fichier ./ALL/$directory$nombre
+done
+rmdir $dir
+fi
+done
