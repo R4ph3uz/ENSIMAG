@@ -1,0 +1,25 @@
+Archive fournie par les enseignants pour TP de TL2
+
+TP: cf. sujet tp-calc.pdf
+-------------------------------
+  La version fournie ne sait traiter qu'une expression réduite à un entier d'un seul chiffre !
+
+  *À FAIRE* dans l'ordre:
+   1) Compléter lexer.py (cf. question 6 du td1-pcalc.pdf).
+      Vous pouvez le tester interactivement avec la commande ./lexer.py
+   2) Vérifier que ./test_lexer.py s'exécute sans erreur.
+      Vérifier aussi que ./test_pcalc.py s'exécute sans erreur.
+   3) Compléter calc.py (cf. tp-calc.pdf).
+      Vous pouvez tester la calculette interactivement avec la commande ./calc.py
+   4) Vérifier que ./test_calc.py s'exécute sans erreur.
+
+  Description des fichiers fournis:
+  - tokenDEF.py: définition des tokens (et fonctions auxiliaires)
+  - lexer.py: analyseur lexical *À COMPLÉTER*
+  - test_lexer.py: pour valider votre implémentation de lexer.py
+  - parser.py: machine à états des parseurs LL(1).
+  - calc.py: calculette en syntaxe infixe *À COMPLÉTER*
+  - test_parser.py: fonctions auxiliaires de tests.
+  - test_calc.py: pour valider votre implémentation de calc.py
+  - pcalc.py (et test_pcalc.py): exemple de parseur LL(1) (cf. section 3 de td1-pcalc.pdf).
+
