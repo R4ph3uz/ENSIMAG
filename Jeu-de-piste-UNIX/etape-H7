@@ -1,0 +1,20 @@
+Voici la solution de l'étape H7.
++L'étape suivante est un programme, il se trouve dans
++~jdpunix/jeu-de-piste/qyxrd/etape-H8
++Ce programme lit la réponse à l'étape suivante, mais ... il ne dit
++rien de ce qu'il a lu. Il va falloir examiner un peu l'exécution du
++programme pour voir à quels fichiers il doit toucher.
++Deux solutions : vous documenter sur la commande 'strace', ou bien
++utiliser le système de fichiers virtuel /proc/.
++/proc, c'est un répertoire, mais il ne correspond pas à un emplacement
++du disque dur : le système nous montre ses structures de données
++internes sous forme de fichier. En particulier, pour chaque processus,
++il y a un répertoire /proc/le-pid-du-processus/ qui contient un
++certain nombre d'informations pertinents sur ce fichier.
++
++Plus d'informations dans 'man proc', également disponible en ligne :
++http://linux.die.net/man/5/proc .
++
++La commande strace, quant à elle, permet de voir tous les appels
++systèmes que fait un processus. En particulier, on verra donc quels
++fichiers ont été ouverts avec l'appel 'open'.

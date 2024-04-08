@@ -1,0 +1,10 @@
+Voila, vous terminez ainsi la partie E du jeu de piste.
+
+L'étape suivante se trouve dans le répertoire F1 de ce répertoire
+(dans la même archive etape-E13.tar.gz).
+
+C'est le seul fichier dont le nom commence par x, et terminant par
+autre chose qu'un z.
+
+La solution est très simple si on sait ce qu'est un wildcard (le
+guide vous l'apprendra si vous ne le savez pas déjà).
