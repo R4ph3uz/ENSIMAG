@@ -7,18 +7,19 @@ Ce dépôt GitHub contient une collection de Travaux Pratiques (TP) réalisés d
 Le dépôt est organisé en dossiers pour chaque matière ou cours. Chaque dossier contient les TP correspondants et fournit les solutions issus des codes sources donnés, et éventuellement des ressources supplémentaires comme des slides ou des notes de cours.
 
 ## ENSIMAG-TP/
-│
-├── Algo/
-│   ├── projet-algo-2024/
-│   └── programme-de-test-guillaume-raffin/
-│
-├── CEP/
-│   ├── TP1/
-│   ├── TP2/
-│   └── ...
-│
-├── PLC/
-│   ├── TP/
-│   └── Projet/
-│
-└── ...
+
+│  
+├── Algo/  
+│   ├── projet-algo-2024/  
+│   └── programme-de-test-guillaume-raffin/  
+│  
+├── CEP/  
+│   ├── TP1/  
+│   ├── TP2/  
+│   └── ...  
+│  
+├── PLC/  
+│   ├── TP/  
+│   └── Projet/  
+│  
+└── ...  
