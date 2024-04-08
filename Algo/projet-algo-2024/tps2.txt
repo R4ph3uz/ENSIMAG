@@ -1,0 +1,14 @@
+carre_imbrique 1 True 1.3113021850585938e-05
+carre_imbrique 10 True 7.939338684082031e-05
+carre_imbrique 100 True 0.0007672309875488281
+carre_imbrique 1000 True 0.015442371368408203
+carre_imbrique 10000 True 0.9603321552276611
+carre sur ligne 100 True 1.305457592010498
+carre sur ligne 10 True 0.04003334045410156
+carre sur ligne 60 True 1.3076090812683105
+carre sur ligne 110 True 4.488205671310425
+carre sur ligne 160 True 9.54512882232666
+polycree
+carre cote a cote 1 True 0.00010633468627929688
+polycree
+carre cote a cote 10 True 0.012742996215820312
